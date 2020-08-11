@@ -19,10 +19,10 @@
 -- Table structure for table `usuarios`
 --
 
-DROP TABLE IF EXISTS `usuarios`;
+DROP TABLE IF EXISTS 'usuarios';
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `usuarios` (
+CREATE TABLE 'usuarios' (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(150) COLLATE utf8_spanish_ci NOT NULL,
   `password` varchar(150) COLLATE utf8_spanish_ci NOT NULL,
@@ -35,9 +35,9 @@ CREATE TABLE `usuarios` (
 -- Dumping data for table `usuarios`
 --
 
-LOCK TABLES `usuarios` WRITE;
+LOCK TABLES 'usuarios' WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'mauricio','40bd001563085fc35165329ea1ff5c5ecbdbbeef','1'),(2,'roman','51eac6b471a284d3341d8c0c63d0f1a286262a18','2');
+INSERT INTO 'usuarios', VALUES (1,'mercedes','AguilarCM07Aguila','1'),(2,'lizbeth','VelazquezAL22Osos','2');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

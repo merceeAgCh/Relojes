@@ -1,22 +1,13 @@
-# -*- encoding: utf-8 -*-
-# ------------------------------------------------------------------------#
-# Programa: Punto de venta 2.0				                              #
-# ------------------------------------------------------------------------#
-# Propósito: validacion de usuario                                        #
-# ------------------------------------------------------------------------#
-# Autor: Abuelazo                                                         #
-# ------------------------------------------------------------------------#
-# Fecha: 07/04/2016                                                       #
-# ------------------------------------------------------------------------#
 
-# importamos librerias necesarias
+#MAC
+#Librerias
 import sys, os
 import hashlib
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 from PyQt4 import QtGui
 
-# importamos de la carpeta pantallas el archivo de logueo
+# pantallas de log
 from pantallas import logueo
 
 #importamos el archivo root
