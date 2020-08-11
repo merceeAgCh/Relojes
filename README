@@ -8,6 +8,13 @@ mysql workbench
 mysql-community
 fdpf
 
+Si no se cuenta con pip (pyQt4) no correra el programa, el pip que se instale debe de ser
+compatible con la version de python correspondiente, pyQt4 deben instalarse ,ediante pip o con conda, el IDE que se
+esta utilizando es Pycharm,
+
+El manual de usuario es el que trae por nombre "manual punto de venta.pdf"
+El codigo viene comentado y este README es una pequeña guia de las de las tecnologias y lenguaje utilizado.
+
 MAC
 LVA
 
